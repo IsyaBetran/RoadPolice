@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1117883210616602163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 344618245591704713}
+  - component: {fileID: 3704087422205930284}
+  - component: {fileID: 1478157779675078630}
+  - component: {fileID: 8912711591738366030}
+  - component: {fileID: 6138194468265277880}
+  - component: {fileID: 1337116814699105951}
+  - component: {fileID: 4012345883490364902}
+  m_Layer: 9
+  m_Name: Wagon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &344618245591704713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117883210616602163}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 120, y: 120, z: 120}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3704087422205930284
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117883210616602163}
+  m_Mesh: {fileID: 5188884987022478856, guid: 65b45f072d2e9e04faf8ad9113003f46, type: 3}
+--- !u!23 &1478157779675078630
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117883210616602163}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -8705533452240791338, guid: 65b45f072d2e9e04faf8ad9113003f46, type: 3}
+  - {fileID: 1859426020009997765, guid: 65b45f072d2e9e04faf8ad9113003f46, type: 3}
+  - {fileID: -1285507144799149237, guid: 65b45f072d2e9e04faf8ad9113003f46, type: 3}
+  - {fileID: 1129505859253339258, guid: 65b45f072d2e9e04faf8ad9113003f46, type: 3}
+  - {fileID: 2413751341462511734, guid: 65b45f072d2e9e04faf8ad9113003f46, type: 3}
+  - {fileID: 8964088591131456171, guid: 65b45f072d2e9e04faf8ad9113003f46, type: 3}
+  - {fileID: -2813337366143557646, guid: 65b45f072d2e9e04faf8ad9113003f46, type: 3}
+  - {fileID: -5998004595915773402, guid: 65b45f072d2e9e04faf8ad9113003f46, type: 3}
+  - {fileID: 8975480819012031255, guid: 65b45f072d2e9e04faf8ad9113003f46, type: 3}
+  - {fileID: 9101280890363022628, guid: 65b45f072d2e9e04faf8ad9113003f46, type: 3}
+  - {fileID: 6133712870518801159, guid: 65b45f072d2e9e04faf8ad9113003f46, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8912711591738366030
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117883210616602163}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5188884987022478856, guid: 65b45f072d2e9e04faf8ad9113003f46, type: 3}
+--- !u!195 &6138194468265277880
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117883210616602163}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.015
+  m_Speed: 5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.015
+  m_BaseOffset: 0.0075734565
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1337116814699105951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117883210616602163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1c6ad132291616488314a0680010bec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theleftpath:
+  - {fileID: 4699258721530079407, guid: 9fdde49bab267734cab0c7ed6fff3fd4, type: 3}
+  - {fileID: 3324691336653949326, guid: ed3c0ba66c51ff74fad7c78c74926ed0, type: 3}
+  - {fileID: 7411454829305809214, guid: 67084534ef3bad246b1db07fcde45107, type: 3}
+  - {fileID: 5563200797241701145, guid: 20e702e39b2100c4998c2b86be759264, type: 3}
+  therightpath:
+  - {fileID: 4699258721530079407, guid: 123e3c35de4d8b347b87ace47563e56c, type: 3}
+  - {fileID: 3324691336653949326, guid: bb29c14bce67c7443b64668ec9979203, type: 3}
+  - {fileID: 7411454829305809214, guid: 0c580c64d31e52f4ba293b4b494e9e08, type: 3}
+  - {fileID: 5563200797241701145, guid: 4a6832cc29075474dbf5908577d0e09f, type: 3}
+  locAwal: 0
+  raycastDistance: 4
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 1537
+--- !u!114 &4012345883490364902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117883210616602163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9db98c6ca16f54da716d1959ddd3f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
